@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+/* default codes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+.common-font {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+.common-description {
+  font-size: 15px;
+  font-weight: 600;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flexbox {
+  display: flex;
+}
+
+/* header css */
+
+.upper-nav-bg {
+  background-color: #009196;
+}
+.upper-nav {
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 70px;
+  padding-top: 3px;
+  position: relative;
+}
+.nav-links {
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+.nav-links i {
+  color: white;
+}
+.lower-nav {
+  height: 70px;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0 10px;
+  color: #909090;
+  position: absolute;
+  bottom: 83%;
+  left: 5%;
+}
+.lower-nav-links {
+  font-weight: 500;
+  justify-content: space-between;
+  gap: 13px;
+}
+li:first-child {
+  font-weight: 600;
+  color: black;
+}
+.navbar-btn {
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-btn button {
+  padding: 12px;
+  color: #909090;
+  background-color: transparent;
+  border: 1.5px solid #909090;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.banner {
+  height: 300px;
+  height: 650px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../assets/banner-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+}
+.banner-content {
+  width: 100%;
+  padding-top: 7rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner p {
+  color: #009196;
+}
+.banner-title{
+    font-size: 37px;
+    font-weight: 750;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+.banner-btn{
+    margin-top: 10px;
+    padding: 8px 10px;
+    background-color: #009196;
+    border: none;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-cards{
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    position: absolute;
+    top: 115%;
+    left: 5%;
+}
+.card{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    border:1px dashed black;
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    padding-bottom: 1rem;
+}
+.card p{
+    color: #3A3A3A;
+    font-size: 17px;
+    font-weight: 400;
+}
+.card-btn{
+    justify-content: space-between;
+    align-items: center;
+}
+.card-btn button{
+    padding-top: 10px;
+    border: none;
+   background-color: transparent;
+   text-align: left;
+   font-size: 16px;
+   font-weight: 550;
+   color: #009196;
+}
+.card-btn i{
+    color: #009196;
+}
+/* header css */
