@@ -311,3 +311,112 @@ li:first-child {
 }
 
 /* testimonial css */
+
+/* media css */
+
+.media{
+  margin-top: 15rem;
+  background-image: url('../assets/Vector\ \(1\).png');
+  height: 200px;
+  position: relative;
+  z-index: -1;
+}
+.media-inside img{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.media-contents{
+  width: 100%;
+  margin: 0 auto;
+  justify-content:center;
+  align-items:center;
+  gap: 5rem;
+  position: absolute;
+  bottom: -15%;
+}
+.boy, .girl{
+  width: 130px;
+}
+.media-content{
+  width: 29%;
+  margin-bottom: 15%;
+  text-align: center;
+}
+.media-title{
+  font-size: 28px;
+  color: #135293;
+}
+.media-icons {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  font-size: 18px;
+  color:#009196;
+}
+.media-icons i{
+  background-color:#eff1f8 ;
+  border-radius: 50%;
+  padding: 7px;
+}
+/* media css */
+
+/* media-logos css */
+
+.media-logos{
+  margin-top: 2px;
+  background-color: #eff1f8;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* media-logos css */
+
+/* footer css */
+
+footer{
+  padding: 1.5rem;
+  background-color: #eff1f8;
+}
+.footer-container hr{
+  color: #e1dad5ca;
+  text-align: center;
+}
+.footer-ul{
+  justify-content: center;
+  align-items: center;
+}
+.footer-ul li{
+  padding: 1rem;
+}
+.footer-contents{
+  padding: 1.5rem;
+}
+.footer-contacts{
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.footer-contacts img{
+  padding: 10px;
+  width: 200px;
+}
+.footer-end{
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.footer-image{
+  text-align: center;
+}
+.footer-end-logos{
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  color: #009196;
+}
+.footer-end-logos i{
+  padding: 1rem;
+}
+/* footer css */
